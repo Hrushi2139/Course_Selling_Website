@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Connect to MongoDB
-mongoose.connect("mongodb://localhost:27017/Hrushi/course_selling_app", { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://sannidhanamhrushikesh:Svk%401234@cluster0.odm2g.mongodb.net/usersarr");
 
 // Define schemas
 const AdminSchema = new mongoose.Schema({
